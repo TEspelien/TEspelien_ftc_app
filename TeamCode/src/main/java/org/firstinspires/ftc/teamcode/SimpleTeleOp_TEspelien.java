@@ -35,7 +35,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 
 @TeleOp(name = "TrajanEspelien: Teleop Simple", group = "TEspelien")
 
-public class SimpleEAllgor extends LinearOpMode {
+public class SimpleTEspelien extends LinearOpMode {
 
     /* Declare OpMode members. */
     HardwareMap_TEspelien robot = new HardwareMap_TEspelien();
