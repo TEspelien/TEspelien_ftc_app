@@ -66,7 +66,7 @@ public class SimpleEAllgor extends LinearOpMode {
 //            .addData("right", "%.2f", right)
                     .addData("arm up", "%s", armU ? "on" : "off")
                     .addData("arm down", "%s", armD ? "on" : "off");
-            telemetry.addLine();
+            telemetry.addLine();j
             telemetry.update();
 
             // Pause for 40 mS each cycle = update 25 times a second.
